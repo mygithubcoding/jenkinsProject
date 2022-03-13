@@ -21,4 +21,10 @@ public class JenkinsTestClass {
 		System.out.println("Jenkins second method");
 		Assert.assertEquals(true, false);
 	}
+	
+	@Test
+	public void m3() {
+		System.out.println("Jenkins third method");
+		Assert.assertEquals(true, true);
+	}
 }
