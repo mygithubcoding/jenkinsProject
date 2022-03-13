@@ -41,6 +41,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testNg.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+					<browser>${Browser}</browser>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>

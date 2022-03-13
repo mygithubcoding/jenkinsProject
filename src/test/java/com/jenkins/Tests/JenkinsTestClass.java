@@ -1,5 +1,6 @@
 package com.jenkins.Tests;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 /**
@@ -11,9 +12,10 @@ import org.testng.annotations.Test;
  *
  */
 public class JenkinsTestClass {
+	@Parameters("Browser")
 	@Test
-	public void m1() {
-		System.out.println("Jenkins first method");
+	public void m1(String browserName) {
+		System.out.println("The browser name is "+browserName);
 		Assert.assertEquals(true, true);
 	}
 	
@@ -23,9 +25,10 @@ public class JenkinsTestClass {
 		Assert.assertEquals(true, true);
 	}
 	
+	@Parameters("Browser")
 	@Test
-	public void m3() {
-		System.out.println("Jenkins third method");
+	public void m3(String browserName) {
+		System.out.println("The browser name is "+browserName);
 		Assert.assertEquals(true, true);
 	}
 	
