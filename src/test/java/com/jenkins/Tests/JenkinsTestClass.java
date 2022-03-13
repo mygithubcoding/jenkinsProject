@@ -1,3 +1,4 @@
+package com.jenkins.Tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

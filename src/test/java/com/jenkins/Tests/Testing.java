@@ -1,3 +1,4 @@
+package com.jenkins.Tests;
 
 public class Testing {
 
