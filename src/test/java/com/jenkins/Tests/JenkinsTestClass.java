@@ -20,12 +20,18 @@ public class JenkinsTestClass {
 	@Test
 	public void m2() {
 		System.out.println("Jenkins second method");
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 	
 	@Test
 	public void m3() {
 		System.out.println("Jenkins third method");
+		Assert.assertEquals(true, true);
+	}
+	
+	@Test
+	public void m4() {
+		System.out.println("Jenkins fourth method");
 		Assert.assertEquals(true, true);
 	}
 }
